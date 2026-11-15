@@ -73,6 +73,8 @@ Every name, ID and value above is fictional. In dry-run mode the header starts w
 
 ## Architecture
 
+![n8n HubSpot Ticket Satisfaction Detractor Escalation Workflow](./workflow-overview.png)
+
 ```
 Webhook: Survey Response (POST, raw body) ─┐
 Manual Trigger → Build Signed Sample ──────┴─► Verify Signature & Evaluate   (resolveConfig, verifySignature, evaluateBody, dedupe)
